@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,main,footer{
+        width:100%;
+        padding: 3% 2%;
+}
+
+header{
+        display:flex;
+        justify-content: space-between;
+    }
+    header ul{
+        display:flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 30%;
+        padding: 0vh 8vw;
+
+    }
+    header ul li{
+       border-right: black solid 2px;
+       padding-right: 10px;
+
+    }
+
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        color:blueviolet;
+    }
+    .no-border{
+        border-right: none
+    }
+    main ul li{
+       list-style: none;
+
+    }
+    h2{
+        font-size: 3rem;
+       
+         
+     }
+    .card-image-main{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border: white solid 1px;
+        border-radius: 45%;
+       
+    }
+    .float{width: auto;
+        line-height: 1.5
+    }
+    .float ul a{
+        text-decoration: none;
+        color: black;
+    }
+    .float ul {
+       display: flex;
+       gap: 5%;
+       margin: 5vh 0vw
+    }
+    .card-border1{
+        width: 25%;
+        height: 80px;
+        border: black solid 1px;
+        border-radius: 50%;
+        padding: 4.5vh 2vw;
+       
+        background-color: orange;
+        font-weight: bold;
+    }
+    .card-border2{
+        width: 25%;
+        height: 80px;
+        border: black solid 1px;
+        border-radius: 50%;
+        padding: 4.5vh 1vw;
+       
+        background-color: red;
+        font-weight: bold;
+    }
+    .card-border3{
+        width: 25%;
+        height: 80px;
+        border: black solid 1px;
+        border-radius: 50%;
+        padding: 4.5vh 1vw;
+       
+        background-color: #0abddd;
+        font-weight: bold;
+    }
+    .main-flex{width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%
+    }
+    .ul-1{
+        display: flex;
+        justify-content: space-between;
+        border-top: black solid 1px;
+        margin: 0vh 5vw;
+        list-style: none;
+        font-weight: bold;
+        padding: 5vh 0vw
+    }
+    .ul-5{
+        display: flex;
+        justify-content: space-between;
+        border-top: black solid 1px;
+        margin: 0vh 5vw;
+        list-style: none;
+        font-weight: bold;
+        padding: 5vh 0vw
+    }
+    .ul-2 a{
+        text-decoration: none;
+        color: black;
+    }
+    .no-flex{display: flex;
+        gap: 8%
+      
+       
+    }
+    footer ul a{
+        text-decoration: none;
+        color: black;
+        font-weight: normal;
+        padding: 5vh 0vw
+    }
+    footer ul a:hover{
+        text-decoration: underline;
+        color:blueviolet;
+    }
+    .bloc-cv{
+        font-size: 1.5rem;
+        margin: 3% 0%;
+    }
+    .bloc-dev{
+       font-weight: bold;
+       line-height: 1.5
+    }
+    .bloc-exp{
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin:3% 0%;
+    }
+    .flex{
+       display: flex;
+       justify-content: space-between;
+      
+    }
+    
+    .bloc-education{
+       border-top: black solid 1px;
+       margin:2% 0%;
+       padding-top:10px
+    }
+    .diplome{
+        font-weight: bold;
+        line-height: 1.5
+         
+     }
+     .bloc-option{
+        margin:2% 0%;
+         
+     }
+    
+     .bloc-competence{
+         font-size: 1.1rem;
+        border-top: black solid 1px;
+        margin:2% 0%;
+        padding-top:10px
+     }
+     .bloc-list{
+        line-height: 1.5;
+        
+    }
+    .bloc-langues{
+        font-size: 1.1rem;
+       border-top: black solid 1px;
+       margin:2% 0%;
+       padding-top:10px
+       
+    }
+    .card-center{
+       padding: 0% 15%
+        
+    }
+    .card-center2{
+        padding: 0% 10%
+         
+     }
+     .card-center4{
+        padding: 0% 14%
+         
+     }
+     .card-center3{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 10%;
+        padding: 0vh 12vw;
+     }
+     .bloc-projets{
+        font-size: 1.5rem;
+        margin: 2% 0%;
+        padding: 0% 5%
+    }
+    .bloc-artisan{
+        width: 55%;
+        margin: 2% 0%;
+        padding: 0% 5%
+    }
+    .bloc-bd{
+        font-size: 1rem;
+        padding: 0% 5%
+    }
+    .bloc-graphe{
+        font-size: 1rem;
+        padding: 0% 5%
+    }
+    .bloc-photo{
+       
+        padding: 2% 5%
+    }
+    .bloc-contact{
+      
+        font-size:1.5rem;
+        padding: 0vh 20vw
+    }
+    .bloc-liste-main{
+        list-style: none;
+        margin: 5vh 0vw;
+        padding: 0vh 20vw
+    }
+    .bloc-liste-main a{
+        text-decoration: none;
+        color: black;
+       
+    }
+    .bloc-liste-main a:hover{
+        text-decoration: underline;
+        color:blueviolet;
+       
+    }
+    .bloc-gras{
+        
+        margin: 2vh 0vw
+       
+    }
+    
+    .bloc-ordi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+       padding: 0vh 35vw;
+        margin-top: -150px;
+        margin-left: 14%
+       
+    }
+    .bloc-ordi2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+       padding: 0vh 35vw;
+        margin-top: 3%;
+        margin-left: 14%
+       
+    }
+    .bloc-ordi3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        padding: 0vh 35vw;
+        margin-top: 3%;
+        margin-left: 7%
+    }
+    .bloc-envoyer{
+        width: 35%;
+        height: 20%;
+        border: black solid 1px;
+         display: flex;
+        justify-content: center; 
+         align-items: center;
+         border-radius: 60%;
+         padding: 5vh 2vw;
+        background-color: orange;
+        font-weight: bold;
+        
+    }
+.message
+    {
+   
+    height: 110px;
+  
+    }
+    
+    
+
+        /*
+         les mobiles
+        */
+    
+    @media screen and (max-width:450px){
+        header{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center
+            
+        }
+        header ul{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+            padding: 5vh 6vw;
+        }
+        h1{
+            font-size: 1.5rem;
+         }
+         
+         .main-flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5%
+        }
+        
+        .card-image-main{
+           
+            width:  100%;
+            height: 300px;
+            border-radius: 55%;
+            margin: 0vh 10vw
+        }
+        .float{
+            line-height: 1.5;
+        }
+        
+        .ul-1{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-top: black solid 1px;
+            list-style: none;
+            font-weight: bold;
+            padding: 5vh 0vw
+        }
+        .ul-5{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-top: black solid 1px;
+            list-style: none;
+            font-weight: bold;
+            padding: 5vh 0vw
+        }
+        .foot-padding{
+            padding: 2vh 0vw;
+        }
+        .no-flex{display: flex;
+            gap: 5%;
+            justify-content: center;
+          align-items: center
+        }
+        .bloc-note{
+            
+            margin:5% 0%;
+         }
+         .bloc-option{
+            margin:5% 0%;
+             
+         }
+         .bloc-cv{
+           
+            margin: 20% 0%;
+        }
+        .bloc-exp{
+            
+            margin:15% 0%;
+        }
+        .flex{
+            flex-direction: column;
+            
+         }
+         .bloc-projets{
+            text-align: center
+        }
+        .bloc-artisan{
+            width: 100%;
+            margin: 4% 0%;
+            padding: 0% 5%
+        }
+        .bloc-liste-main {
+           
+        text-align: center
+           
+        }
+        .bloc-contact{
+      
+           text-align: center
+        }
+        .bloc-ordi{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 0%;
+           padding: 2vh 35vw;
+            margin-top: 3%;
+            margin-left: 0%
+           
+        }
+        .large{
+            width: 250px
+        }
+        .bloc-ordi2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 5%;
+           padding: 2vh 35vw;
+            margin-top: 3%;
+            margin-left: 0%
+           
+        }
+        .bloc-ordi3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 5%;
+            padding: 2vh 35vw;
+            margin-top: 3%;
+        }
+        .bloc-envoyer{
+            width: 90%;
+            height: 60%;
+            border: black solid 1px;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            border-radius: 60%;
+            padding: 5vh 15vw;
+            
+            margin-top: 8% 
+            
+        }
+        .message
+        {
+        width: 250px
+         }
+         .marg {
+            
+            margin-top: 8%
+             }
+            
+    
+    .jerem {
+            
+        margin-top: 8%;
+         }
+        
+}
+     /*
+     les tablettes
+        */
+    @media screen and (max-width:780px) {
+        .main-flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5%
+        }
+        
+        .card-image-main{
+            width: 70%;
+            height: 300px;
+            border-radius: 55%;
+            margin: 0vh 10vw
+        }
+        .float{
+            line-height: 1.5;
+            text-align: center
+        }
+        .ul-1{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-top: black solid 1px;
+            list-style: none;
+            font-weight: bold;
+            padding: 5vh 0vw
+        }
+        .foot-padding{
+            padding: 2vh 0vw;
+        }
+        .no-flex{display: flex;
+            gap: 2%;
+            justify-content: center;
+          align-items: center
+        }
+        .bloc-note{
+            
+            margin:5% 0%;
+         }
+         .bloc-option{
+            margin:5% 0%;
+             
+         }
+         .bloc-cv{
+           
+            margin: 15% 0%;
+        }
+        .bloc-exp{
+            
+            margin:10% 0%;
+        }
+       
+         .card-center{
+            padding: 0% 5%
+             
+         }
+         .card-center2{
+             padding: 0% 0%
+              
+          }
+          .card-center4{
+             padding: 0% 5%
+              
+          }
+          .card-center3{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            gap: 10%;
+            padding: 0vh 5vw;
+         }
+         .ul-5{
+            display: flex;
+            justify-content: space-between;
+            border-top: black solid 1px;
+            margin: 0vh 5vw;
+            list-style: none;
+            font-weight: bold;
+            padding: 5vh 0vw
+        }
+        .no-flex{display: flex;
+            gap: 5%
+        }
+        .bloc-liste-main{
+           
+            margin: 5vh 0vw;
+            padding: 0vh 2vw
+        }
+        .bloc-contact{
+      
+            padding: 0vh 2vw
+         }
+         .bloc-ordi{
+            display: flex;
+            justify-content: space-between;
+           padding: 2vh 25vw;
+            margin-top: 5%;
+            margin-left: -23%
+           
+        }
+        .large{
+            width: 290px
+        }
+        .message
+        {
+        width: 250px
+         }
+        .bloc-ordi2{
+            display: flex;
+            justify-content: space-between;
+            gap: 5%;
+           padding: 2vh 25vw;
+            margin-top: 0%;
+            margin-left: -23%
+           
+        }
+        .bloc-ordi3{
+            display: flex;
+            justify-content: space-between;
+            gap: 5%;
+            padding: 2vh 25vw;
+            margin-top: 0%;
+            margin-left: -23%
+        }
+        .bloc-envoyer{
+            width: 35%;
+            height: 20%;
+            border: black solid 1px;
+             display: flex;
+            justify-content: center; 
+             align-items: center;
+             border-radius: 60%;
+             padding: 7vh 2vw;
+            background-color: orange;
+            font-weight: bold;
+            
+        }
+        
+      
+        
+    }
+       
